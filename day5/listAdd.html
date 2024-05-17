@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>list</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/04d09fd1f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+  <h1>책</h1>
+  <div class="actionEvent"></div>
+  <div class="titleContainer">
+    <p>책 이름</p>
+    <input type="text" id="bookTitle">
+  </div>
+  <div class="authorContainer">
+    <p>책 저자</p>
+    <input type="text" id="bookAuthor">
+  </div>
+  <button id="submit">제출</button>
+  <div class="result">
+    <div class="resultTitle">
+      <span>책 이름</span>
+      <span>책 저자</span>
+      <span></span>
+    </div>
+    <div class="divider"></div>
+    <ul class="items">
+      <!-- <li class="item__row">
+        <div class="item">
+          <span class="item__title">ddd</span>
+          <span class="item__author">ddd2</span>
+          <button class="item__delete">
+          <i class="fas fa-trash-alt"></i>
+          </button>
+        </div>
+        <div class="divider"></div>
+      </li> -->
+    </ul>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
