@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>비밀번호 생성기</h1>
+    <h3 class="password__display">비밀번호</h3>
+    <form action="" class="form" id="passwordGenerator">
+      <label for="amountNumber">비밀번호 수</label>
+      <input type="number" min="5" max="50" id="amountNumber">
+
+      <label for="includeUppercase">Uppercase</label>
+      <input type="checkbox" id="includeUppercase">
+
+      <label for="includeNumber">Number</label>
+      <input type="checkbox" id="includeNumber">
+
+      <label for="includeSymbols">Symbols</label>
+      <input type="checkbox" id="includeSymbols">
+
+      <button type="submit" class="btn">비밀번호 생성하기</button>
+  </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
